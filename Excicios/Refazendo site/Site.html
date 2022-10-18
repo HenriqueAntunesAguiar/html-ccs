@@ -393,6 +393,39 @@
                 </pre>
         <h2>Atraso de animação</h2>
             <p>Para criar um atraso de animação, devemos utilizar a tag <strong>transition-duration: tempo</strong>, para criar o seguinte efeito:</p>
+        <h2>Trabalhando com Imagens e Divs</h2>
+            <p>
+                Aqui vamos ver como colocar imagens no plano de fundo, para isso iremos fazer um site em que iremos separar as imagens em divs em que a tag style vai ter um <strong>display: iline-block</strong>. Essa tag deixa as divs uma do lado da outra.
+                Segue caminho para o exercício:
+                <a href="Ex006/index.html" target ='_blank'>aqui</a> <br>
+                Também vimos que utilizando a tag <strong>url('caminho')</strong> dentro da background-image podemos colocar uma imagem de fundo no nosso site.
+            </p>
+        <h2>Configurando o background</h2>
+        <p>
+            Temos algumas tags para desenvolver um fundo de site mais organizado como a <strong>background-size: px px</strong> em que definimos o tamanho do back-ground e o background-repeat: [repeat-x (repete no eixo X), repeat-y (repete no eixo Y), no-repeat (repete somente uma vez), repeat (repete para a página toda - geralmente padrão.)]
+        </p>
+        <p>
+            Podemos selecionar a posição da imagem. De padrão, a imagem começa no topo esquerdo da figura, contudo podemos mudar usando a tag <strong>background-position: (top,center,bottom,left,right/ top,center,bottom,left,right.</strong>
+            <br>
+            Abaixo o link de exemplo da tag:
+            <br>
+            <a href="Ex006/index2.html" target="_blank">Aqui</a>
+            <p>
+                Para fazer a imagem caber corretamente no fundo do site temos duas tags, a <strong>background-size: cover</strong> e a <strong>background-size:contain</strong>. A cover faz com que a imagem não seja exibida por inteiro, contudo ele se adápta para cobrir o site todo, enquanto o contain exibe tudo mas distorcendo a imagem.
+                <br>
+                <strong>Podemos completar com a tag background-attachment: fixed</strong> que faz com que a imagem depois de acabar, não quebre e sim fiquei fixa para todo o site.
+            </p>
+        </p>
+        <h2>Alterando verticalmente posição das Caixas</h2>
+        <p>
+            Para alterar verticalmente uma caixa, precisamos inserir uma div dentro de outra div em que a div de <strong>fora tenha o position relative</strong> e a de <strong>dentro absolute</strong>.
+            <pre>
+    section
+                article
+                /article
+    /section
+            </pre>
+        </p>
     </main>
     <footer>
         <p> Site produzido por Henrique Antunes Aguiar</p>
